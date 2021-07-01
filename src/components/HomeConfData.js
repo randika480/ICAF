@@ -10,6 +10,8 @@ const HomeConfData = () => {
 
   useEffect(() => {
     const getConference = async () => {
+
+      alert()
       try {
         await axios
           .get("http://localhost:6500/grid/api/guest/getConference")
